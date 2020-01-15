@@ -1,6 +1,6 @@
 .tooltip-content {
     display: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 20px;
     width: 400px;
@@ -9,7 +9,7 @@
 }
 
 .tooltip .icon {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
 }
