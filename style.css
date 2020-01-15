@@ -1,5 +1,5 @@
 .tooltip-content {
-    display: block;
+    display: none;
     position: absolute;
     top: 0;
     right: 20px;
@@ -12,4 +12,8 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+.icon:hover + .tooltip-content {
+    display: block;
 }
