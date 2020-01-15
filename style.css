@@ -1,0 +1,15 @@
+.tooltip-content {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.tooltip .icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
